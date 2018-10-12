@@ -1,0 +1,4 @@
+{
+  "gridSize": 5,
+  "directions": ["north", "east", "south", "west"]
+}

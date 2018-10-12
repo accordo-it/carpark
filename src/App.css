@@ -1,0 +1,41 @@
+.park {
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffffff;
+  background-color: lightgray;
+  float: left;
+}
+
+.bus {
+  position: absolute;
+  /* transition: all 0.2s ease; */
+}
+
+.bus-control {
+  width: 500px;
+  margin: 40px auto 20px;
+}
+
+.face-north {
+  transform: rotate(0);
+}
+
+.face-west {
+  transform: rotate(270deg);
+}
+
+.face-east {
+  transform: rotate(90deg);
+}
+
+.face-south {
+  transform: rotate(180deg);
+}
